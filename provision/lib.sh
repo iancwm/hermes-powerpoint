@@ -45,7 +45,8 @@ state_set() {
   else
     : > "$tmp"
   fi
-  printf "%s='%s'\n" "$key" "$val" >> "$tmp"
+  local escaped="${val//\'/\'\\\'\'}"
+  printf "%s='%s'\n" "$key" "$escaped" >> "$tmp"
   mv "$tmp" "$STATE_FILE"
 }
 
