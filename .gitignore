@@ -10,3 +10,6 @@ venv/
 # Dev tooling
 .pytest_cache/
 .uv/
+
+# Non-interactive run capture (Appendix C)
+setup-run.json

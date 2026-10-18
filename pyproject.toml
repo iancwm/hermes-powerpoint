@@ -1,0 +1,11 @@
+[project]
+name = "hermes-deck-provisioning"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["python-pptx", "pytest", "pyyaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
