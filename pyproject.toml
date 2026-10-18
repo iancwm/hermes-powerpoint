@@ -9,3 +9,4 @@ dev = ["python-pptx", "pytest", "pyyaml"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]
