@@ -1,0 +1,12 @@
+# Inter-step state (gitignored by design — see AGENTS.md)
+.state/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dev tooling
+.pytest_cache/
+.uv/
